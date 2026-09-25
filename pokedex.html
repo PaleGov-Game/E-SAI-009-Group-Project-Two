@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Manrope:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="pokedex.js"></script>
+    <title>MyPokedex</title>
+</head>
+<body>
+    <header class="w-full bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+            <a href="./index.html"><img src="./img/logo.png" alt="Pokemon" class="w-20"></a>
+            <ul class="flex items-center gap-8">
+                <li><a href="./index.html" class="font-['Manrope'] text-base font-semibold text-gray-800 transition hover:text-blue-500">Home</a></li>
+                <li><a href="./pokedex.html" class="font-['Manrope'] text-base font-semibold text-gray-800 transition hover:text-blue-500">My Pokedex</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="w-full overflow-hidden rounded-none bg-cover bg-center bg-no-repeat" style="background-image: url('./img/Pokedex.png');">
+        <div class="min-h-[400px] px-10 py-16 md:px-16 ">
+            <div class="max-w-[520px]">
+                <h1 class="font-['Fredoka'] text-5xl font-bold leading-tight text-[#032B5E] md:text-6xl">My Pokédex</h1>
+                <p class="mt-6 max-w-[500px] font-['Manrope'] font-semibold leading-7 text-[#172A5B]">Your Pokémon. Your Notes. Your Story.</p>
+                <p class="mt-6 max-w-[500px] font-['Manrope'] font-regular leading-7 text-[#172A5B]">Here are the Pokémon you have caught. Add your own notes to remember interesting facts, strategy or personal thoughts.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="w-full overflow-hidden bg-cover bg-center bg-no-repeat"
+        style="background-image: url('./img/Footer.png');">
+        <div class="flex min-h-[260px] items-center px-10 py-10 md:px-16">
+            <div class="flex flex-col items-start">
+                <img src="./img/logo.png" alt="Pokemon" class="w-20">
+                
+                <p class="mt-4 font-['Manrope'] text-xs text-[#172A5B] md:text-sm">&copy; 2026 Pokedex Diary. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
